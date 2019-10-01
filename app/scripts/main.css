@@ -1,0 +1,184 @@
+body {
+ font-family: Arial, Helvetica, Verdana, Sans-serif;
+ font-size: 14px;
+ color: #666666;
+ background: #eee;
+}
+
+#container {
+ width: 765px;
+ margin: 5px auto; /* 10px */
+ background-color: #fff;
+ color: #333;
+ border: 1px solid gray;
+ line-height: 130%;
+}
+
+#header {
+ padding: .5em;
+ width: 745px;
+ height: 270px;
+ border-bottom: 1px solid gray;
+}
+
+#nav {
+ border-bottom: 1px solid gray;
+ text-align: center;
+}
+
+a:link { text-decoration: none; color:#008CBA;}
+a:visited { text-decoration: none; color:#000;}
+a:active { text-decoration: none; color:#008CBA;}
+a:hover { font-weight: bold; color:#008CBA;}
+
+#header h1 {
+ padding: 0;
+ margin: 0;
+}
+
+#content {
+ padding: .5em;
+}
+
+#footer {
+ clear: both;
+ margin: 0;
+ padding: .5em;
+ color: #333;
+ border-top: 1px solid gray;
+}
+
+#footer img {
+ float: right;
+ border: 0px;
+ padding: 2px;
+}
+
+#leftnav p { margin: 0 0 1em 0; }
+#content h2 { font-size: 14px; margin: 0 0 .5em 0; }
+#left h2 { font-size: 14px; margin: 0 0 .5em 0; }
+
+.menu li {
+	display:inline; 
+	list-style:none; 
+	margin-right:10px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: black;
+	background:#fff;
+	border: 1px solid #008CBA;
+	padding:3px 10px;
+	font-size:14px;
+}
+
+.menu li a:hover {
+	text-decoration: none;
+	background:#008CBA;
+	border:1px solid #008CBA;
+	color:white;
+}
+
+img {
+ border: 0px;
+}
+
+.alert {
+ background: #FFE87C;
+ background-position: 15px 50%;
+ text-align: left;
+ padding: 5px 20px 5px 45px;
+ border-top: 2px solid #827839;
+ border-bottom: 2px solid #827839;
+}
+
+td {
+ text-align: center;
+}
+
+.b {
+ font-weight: bold;
+}
+
+.i {
+ font-style: italic;
+}
+
+label {
+ display: block;
+ margin-top: 20px;
+ letter-spacing: 2px;
+}
+
+.label input {
+ width: 75px;
+ height: 25px;
+ border: 1 px solid #dedede;
+ padding: 5px;
+ margin-top: 3px;
+ color: #3a3a3a;
+}
+
+staff-block {
+    padding: 5px 0;
+}
+
+.staff-photo {
+    float: left;
+    width: 125px;
+    height: 125px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+
+.staff-name {
+    color: black;
+    margin-left: 156px;
+}
+
+.staff-title {
+    color: black;
+    font-size: 11pt;
+    font-weight: 300;
+    font-variant: small-caps;
+}
+
+.staff-bio {
+    margin-left: 156px;
+}
+
+.staff-bio:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* FOR ADDITIONAL CONTEXT FOR LEXICAL ITEMS IN RESULTS */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
